@@ -9,8 +9,6 @@ from tkinter import simpledialog
 tk.Tk().withdraw()
 location = simpledialog.askstring("Letter Encryption", "Location of the staff folder")
 
-# location = input('Location of the staff folder: ')
-
 # Load the Excel file with staff data
 df = pd.read_excel(f'{location}/staff.xlsx')
 
