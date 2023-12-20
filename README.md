@@ -4,4 +4,5 @@ Python script to access the template in a unique folder, access data from an exc
 <li>Script requires openpyxl to be installed as well</li>
 
 <h4>N.B</h4>
-You need MS word 2016 or later installed
+<li>You need MS Word 2016 or later installed.</li>
+<li>MS Word might need to be opened when running script.</li>
