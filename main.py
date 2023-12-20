@@ -6,7 +6,6 @@ import os
 
 
 location = input('Location of the staff folder: ')
-location = f'./{location}'
 
 # Load the Excel file with staff data
 df = pd.read_excel(f'{location}/staff.xlsx')
@@ -23,7 +22,7 @@ for index, row in df.iterrows():
     file = f'{fullname}.docx'
 
     # Word template
-    doc = Document('./year_end.docx')
+    doc = Document(f'{location}/year_end.docx')
 
     # Go through paragraph in word template
     for paragraph in doc.paragraphs:
