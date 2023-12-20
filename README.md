@@ -11,4 +11,4 @@ Python script to access the template in a unique folder, access data from an Exc
 <li>Ensure the folder is in your Downloads folder or modify the .bat file to wherever you saved the folder.</li>
 
 <h4>P.S<h4>
-You do not need to run the patch file if you are familiar with python and running the code from an IDE or the terminal of your OS.
+You do not need to run the .bat file if you are familiar with python and running the code from an IDE or the terminal of your OS.
